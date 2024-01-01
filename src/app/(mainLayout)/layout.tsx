@@ -10,10 +10,18 @@ const MainLayoutPage = ({ children }: { children: React.ReactNode }) => {
         <Link href="/about" style={{ fontWeight: "bold" }}>
           <Button>about</Button>
         </Link>
-        <Link href="/home">Home</Link>
-        <Link href="/profile">profile</Link>
-        <Link href="/dashboard">dashboard</Link>
-        <Link href="/dashboard/new">dashboard/new</Link>
+        <Link href="/home">
+          <Button>Home</Button>
+        </Link>
+        <Link href="/profile">
+          <Button>profile</Button>
+        </Link>
+        <Link href="/dashboard">
+          <Button>dashboard</Button>
+        </Link>
+        <Link href="/dashboard/new">
+          <Button>dashboard/new</Button>
+        </Link>
         <div>{children}</div>
       </nav>
     </div>
