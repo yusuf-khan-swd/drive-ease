@@ -7,6 +7,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
     <div>
       <nav>
         <Link href="/profile">Profile</Link>
+        <Link href="/dashboard">Dashboard</Link>
       </nav>
       <div>{children}</div>
       <Dashboard>{children}</Dashboard>
