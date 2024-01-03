@@ -16,12 +16,6 @@ const MainLayoutPage = ({ children }: { children: React.ReactNode }) => {
         <Link href="/profile">
           <Button>profile</Button>
         </Link>
-        <Link href="/dashboard">
-          <Button>dashboard</Button>
-        </Link>
-        <Link href="/dashboard/new">
-          <Button>dashboard/new</Button>
-        </Link>
         <div>{children}</div>
       </nav>
     </div>
