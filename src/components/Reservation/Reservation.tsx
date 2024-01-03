@@ -7,6 +7,7 @@ import { useState } from "react";
 
 const Reservation = () => {
   const [pickUpDate, setPickUpDate] = useState<Dayjs | null>();
+  const [dropOffDate, setDropOffDate] = useState<Dayjs | null>();
 
   return (
     <div>
@@ -24,8 +25,8 @@ const Reservation = () => {
         label="Drop-off Date"
         disablePast
         views={["day"]}
-        value={pickUpDate}
-        onChange={(newValue) => setPickUpDate(newValue)}
+        value={dropOffDate}
+        onChange={(newValue) => setDropOffDate(newValue)}
       />
       <TimePicker label="Drop-off Time" />
     </div>
