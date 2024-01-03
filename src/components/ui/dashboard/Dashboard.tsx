@@ -18,6 +18,7 @@ import Paper from "@mui/material/Paper";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { ThemeProvider, createTheme, styled } from "@mui/material/styles";
+import Link from "next/link";
 import * as React from "react";
 import Chart from "./Chart";
 import Deposits from "./Deposits";
@@ -130,7 +131,7 @@ export default function Dashboard() {
               noWrap
               sx={{ flexGrow: 1 }}
             >
-              Dashboard
+              <Link href="/home">DriveEase</Link>
             </Typography>
             <IconButton color="inherit">
               <Badge badgeContent={4} color="secondary">
