@@ -20,6 +20,14 @@ const Reservation = () => {
         onChange={(newValue) => setPickUpDate(newValue)}
       />
       <TimePicker label="Pick-up Time" />
+      <DatePicker
+        label="Drop-off Date"
+        disablePast
+        views={["day"]}
+        value={pickUpDate}
+        onChange={(newValue) => setPickUpDate(newValue)}
+      />
+      <TimePicker label="Drop-off Time" />
     </div>
   );
 };
