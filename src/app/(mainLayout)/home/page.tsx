@@ -1,3 +1,4 @@
+import Cards from "@/components/Cards/Cards";
 import Reservation from "@/components/Reservation/Reservation";
 
 import { Metadata } from "next";
@@ -10,6 +11,7 @@ const HomePage = () => {
   return (
     <div>
       <Reservation />
+      <Cards />
     </div>
   );
 };
