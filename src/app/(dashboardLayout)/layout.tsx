@@ -9,7 +9,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
         <Link href="/profile">Profile</Link>
       </nav>
       <div>{children}</div>
-      <Dashboard />
+      <Dashboard>{children}</Dashboard>
     </div>
   );
 };
