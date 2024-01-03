@@ -12,7 +12,7 @@ import Divider from "@mui/material/Divider";
 import MuiDrawer from "@mui/material/Drawer";
 import Grid from "@mui/material/Grid";
 import IconButton from "@mui/material/IconButton";
-import Link from "@mui/material/Link";
+import MuiLink from "@mui/material/Link";
 import List from "@mui/material/List";
 import Paper from "@mui/material/Paper";
 import Toolbar from "@mui/material/Toolbar";
@@ -33,9 +33,9 @@ function Copyright(props: any) {
       {...props}
     >
       {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
+      <MuiLink color="inherit" href="https://mui.com/">
         Your Website
-      </Link>{" "}
+      </MuiLink>{" "}
       {new Date().getFullYear()}
       {"."}
     </Typography>
